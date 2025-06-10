@@ -63,21 +63,47 @@ Follow the steps below to set up the project on your local machine:
 
 ---
 
-1. Navigate to the project directory
-```bash
-cd <directory to this folder>
-## 2. Install required dependencies
+---
 
-```bash pip install -r requirements.txt
-3. Install additional module (if needed)
-bashpip install <module>
-4. Run Django migrations
-bashpython manage.py makemigrations
+### 📦 Install Dependencies
+
+Make sure you have `pip` installed. This command installs all the Python packages listed in `requirements.txt` which are required for the project to run.
+
+```bash
+# installing dependencies
+pip install -r requirements.txt
+
+#Intall libraries or packages: If not installed, follow this
+
+pip install <module>
+
+#Database setup – Apply migrations
+
+python manage.py makemigrations
 python manage.py migrate
-5. Start the development server
-bashpython manage.py runserver
-6. Access the application
+
+#Run application: start development server
+
+python manage.py runserver
+
+#Run application: Start development server
+
 Navigate to http://127.0.0.1:8000/ in your browser
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
