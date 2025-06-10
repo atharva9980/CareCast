@@ -57,6 +57,13 @@ Here is the breakdown of the Django project structure:
 
 
 ---
+
+### 📊 Datasets Used
+
+1. [PCOS 2023 Dataset](https://www.kaggle.com/datasets/sahilkoli04/pcos2023) – Used for predicting Polycystic Ovary Syndrome.
+2. [Mental Disorder Classification Dataset](https://www.kaggle.com/datasets/cid007/mental-disorder-classification) – Used for predicting various mental health conditions.
+3. [Obesity Prediction Dataset](https://www.kaggle.com/datasets/mrsimple07/obesity-prediction) – Used for predicting obesity levels based on lifestyle attributes.
+
 ## 🛠️ Project Setup Guide
 
 Follow the steps below to set up the project on your local machine:
@@ -67,6 +74,8 @@ Follow the steps below to set up the project on your local machine:
 ### 📦 Install Dependencies
 
 Make sure you have `pip` installed. This command installs all the Python packages listed in `requirements.txt` which are required for the project to run.
+
+---
 
 ```bash
 # installing dependencies
@@ -82,6 +91,8 @@ python manage.py makemigrations
 python manage.py migrate
 
 #Run application: start development server
+
+
 
 python manage.py runserver
 
