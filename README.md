@@ -63,20 +63,20 @@ Follow the steps below to set up the project on your local machine:
 
 ---
 
-### 📁 1. Change the Directory to the Project Folder
-
+1. Navigate to the project directory
 ```bash
 cd <directory to this folder>
+## 2. Install required dependencies
 
-pip install -r requirements.txt
-
-pip install <module>
-
-python manage.py makemigrations
+```bash pip install -r requirements.txt
+3. Install additional module (if needed)
+bashpip install <module>
+4. Run Django migrations
+bashpython manage.py makemigrations
 python manage.py migrate
-
-python manage.py runserver
-
+5. Start the development server
+bashpython manage.py runserver
+6. Access the application
 Navigate to http://127.0.0.1:8000/ in your browser
 
 
