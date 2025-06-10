@@ -61,9 +61,8 @@ Here is the breakdown of the Django project structure:
 
 Follow the steps below to set up the project on your local machine:
 
----
 
----
+
 
 ### 📦 Install Dependencies
 
@@ -89,22 +88,3 @@ python manage.py runserver
 #Run application: Start development server
 
 Navigate to http://127.0.0.1:8000/ in your browser
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
